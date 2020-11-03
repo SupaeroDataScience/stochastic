@@ -21,6 +21,19 @@ Random Search, Simulated Annealing, Evolutionary Strategies, Genetic Algorithms
 
 Dennis WILSON
 
-<!--v-->
+<!--s-->
 
 ### Class format
+
++ Course website at https://SupaeroDataScience.github.io/stochastic/
++ Notebooks available on course website or at https://github.com/SupaeroDataScience/stochastic/
++ Fully distance based:
+  + Presentations on Zoom
+  + Group work on Slack
+  + Same groups for 4/11, 10/11, 17/11
++ Evaluation by project, different groups of 3, on 25/11
+
+### Class schedule
+
+| table |
+| here  |
