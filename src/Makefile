@@ -1,7 +1,7 @@
 
 all:
 	mkdocs build
-	cd slides; reveal-md . \
+	cd reveal; reveal-md . \
         --template static/template/reveal.html \
         --listing-template static/template/listing.html \
         --css static/css/evo.css \
