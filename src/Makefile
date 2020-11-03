@@ -23,6 +23,7 @@ deploy:
 	git add ../slides
 	git commit -m 'reveal update'
 	git push origin gh-pages
+	git checkout master
 
 clean:
 	rm -rf site
