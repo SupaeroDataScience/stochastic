@@ -1,0 +1,42 @@
+site_name: Stochastic Optimization
+site_description: Metaheuristics, Simulated Annealing, Evolutionary Algorithms, Evolutionary Strategies, Genetic Algorithms
+site_url: https://supaerodatascience.github.io/stochastic/
+site_dir: site
+strict: false
+use_directory_urls: false
+
+theme:
+  name: 'material'
+  palette:
+    primary: blue
+    accent: blue
+  logo: 'https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/src/favicon.ico'
+  favicon: 'https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/src/favicon.ico'
+  features:
+    - toc.autohide
+
+repo_name: SupaeroDataScience/stochastic
+repo_url: https://github.com/SupaeroDataScience/stochastic
+
+nav:
+- Home: index.md
+- Introduction: 0_intro.md
+- Simulated Annealing: 1_sa.md
+- Evolutionary Strategies: 2_es.md
+- Genetic Algorithms: 3_ga.md
+- Project: project.md
+
+markdown_extensions:
+- markdown.extensions.codehilite:
+    guess_lang: false
+- toc:
+    permalink: 🔗
+- admonition
+- codehilite
+- extra
+- attr_list
+- pymdownx.details
+- pymdownx.superfences
+
+plugins:
+- search
