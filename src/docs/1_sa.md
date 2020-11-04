@@ -1,13 +1,12 @@
 # Random Search to Simulated Annealing
 
-## Random search 
+Please download and follow the notebooks for this section of the class on random
+search and simulated annealing.
 
-notebook
+## Random search
 
-## Informed random search
-
-notebook
+[notebook](https://github.com/SupaeroDataScience/stochastic/blob/master/notebooks/Random%20Search.ipynb)
 
 ## Simulated annealing
 
-notebook
+[notebook](https://github.com/SupaeroDataScience/stochastic/blob/master/notebooks/Simulated%20Annealing.ipynb)
