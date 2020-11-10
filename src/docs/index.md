@@ -14,6 +14,6 @@ on a stochastic algorithm in teams of 3.
 Schedule | | |
 | --- | --- | --- |
 04/11 | [Introduction](0_intro.html) and [simulated annealing](1_sa.html) | Continuous optimization, random search, simulated annealing |
-10/11 | [Evolutionary Strategies](2_es.html) | Population-based methods, 1+1 EA, CMA-ES, Natural ES |
+10/11 | [Evolutionary Strategies](2_es.html) | Population-based methods, 1+1 ES, CMA-ES |
 17/11 | [Genetic Algorithms](3_ga.html) | Genetic Algorithm, Multi-Objective Optimization, NSGA-II |
 25/11 | [Project](project.html) | Project presentations |
