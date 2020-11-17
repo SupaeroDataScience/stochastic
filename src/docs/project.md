@@ -20,6 +20,7 @@ be reviewed by one teacher and two other groups; the final grade will be a
 weighted average of these three grades.
 
 | Project |   |   |
+| --- | --- | --- |
 | Topic clarity |   | 5 |
 | Example demonstrates topic |   | 5 |
 | Example clarity |   | 5 |
