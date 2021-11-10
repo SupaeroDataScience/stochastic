@@ -81,7 +81,7 @@ Objective function: Runtime, number of tests passed
 
 <!--s-->
 
-### Pros and Cons
+### Advantages
 
 Pros
   + Flexibility in problem representation
@@ -89,7 +89,10 @@ Pros
   + Multitude of proven algorithms with (comparatively) few hyperparameters
   + Relatively easy to understand
 
-Cons
+<!--s-->
+
+### Disadvantages
+
   + Computational cost
   + Search not fully informed by objective function
   + Expert knowledge for representation or objective function design
@@ -100,14 +103,30 @@ Cons
 
 + Course website at https://SupaeroDataScience.github.io/stochastic/
 + Notebooks available on course website or at https://github.com/SupaeroDataScience/stochastic/
-+ Fully distance based:
-  + Presentations on Zoom
-  + Group work on Slack
-  + Same groups for 4/11, 10/11, 17/11
-+ Evaluation by project, different groups of 3, on 25/11
++ Evaluation in two parts:
+  + mini-quiz on 16/11 and 23/11
+  + Project on 01/12
 
 <!--s-->
 
 ### Class schedule
 
-<img src="static/img/schedule.png" style="background:none; border:none; box-shadow:none;"/>
+Schedule | | |
+| --- | --- | --- |
+10/11 | [Introduction](0_intro.html) and [simulated annealing](1_sa.html) | Continuous optimization, random search, simulated annealing |
+16/11 | [Evolutionary Strategies](2_es.html) | Population-based methods, 1+1 ES, CMA-ES |
+23/11 | [Genetic Algorithms](3_ga.html) | Genetic Algorithm, Multi-Objective Optimization, NSGA-II |
+01/12 | [Project](project.html) | Project |
+
+<!--s-->
+
+### Exercise: recent applications
+
+1. [Heuristic Strategies for Solving Complex Interacting Stockpile Blending Problem with Chance Constraints](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/xie_stockpile.pdf)
+2. [Design of Specific Primer Sets for SARS-CoV-2 Variants Using Evolutionary Algorithms](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/rincon_cov2.pdf)
+3. [Continuously Running Genetic Algorithm for Real-Time Networking Device Optimization](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/mandelbaum_networking.pdf)
+4. [Evolutionary Minimization of Traffic Congestion](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/bother_traffic.pdf)
+
+What is the application in the article? How is this application formulated into an evolutionary fitness?
+
+What is the method used in the article? Describe it in simple terms.
