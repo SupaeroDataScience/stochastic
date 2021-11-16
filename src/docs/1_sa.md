@@ -10,3 +10,7 @@ search and simulated annealing.
 ## Simulated annealing
 
 [notebook](https://github.com/SupaeroDataScience/stochastic/blob/master/notebooks/Simulated%20Annealing.ipynb)
+
+## Quiz on random search and simulated annealing
+
+[quiz](https://lms.isae.fr/mod/quiz/view.php?id=84437)
