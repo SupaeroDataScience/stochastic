@@ -17,7 +17,7 @@ revealOptions:
 
 Pareto dominance, NSGA-II
 
-**ISAE-SUPAERO, SD, November 2020**
+**ISAE-SUPAERO, SD**
 
 Dennis WILSON
 
