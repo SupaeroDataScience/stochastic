@@ -6,13 +6,17 @@
 
 		<title>Quality Diversity</title>
 
-		<link rel="stylesheet" href="../reveal/css/reset.css">
-		<link rel="stylesheet" href="../reveal/css/reveal.css">
-		<link rel="stylesheet" href="../reveal/css/theme/evo.css">
-		<!-- <link rel="stylesheet" href="../reveal/css/custom.css"> -->
+        o
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="../reveal/lib/css/zenburn.css">
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./static/css/reset.css" />
+    <link rel="stylesheet" href="./static/css/evo.css" />
+    <!-- <link rel="stylesheet" href="_assets/evo" id="theme" /> -->
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+
+    <link rel="stylesheet" href="./_assets/static/css/evo.css" />
+    <link rel="stylesheet" href="./_assets/static/css/reset.css" />
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -31,13 +35,13 @@
 					<h1>Evolutionary Computation</h1>
 					<h3>Quality Diversity</h3>
           <br />
-					<img src="../imgs/logo.png" width="30%" height="auto">
+					<img src="../static/img/logo.png" width="30%" height="auto">
 				</section>
 
         <section>
             <h2>Evolving programs and networks</h2>
             <br/>
-            <img src="../imgs/gp_types_of_eas.png" width="60%">
+            <img src="../static/img/gp_types_of_eas.png" width="60%">
             <br/>
             These individuals have a <b>behavior</b>.
             <br/>
@@ -52,7 +56,7 @@
 				<section>
 					<h2>Evolution of behavior</h2>
           <br/>
-          <img src="../imgs/behavior_example_1.png" width="40%">
+          <img src="../static/img/behavior_example_1.png" width="40%">
           <br/>
 					Similar genes, different behaviors
           <br/>
@@ -69,7 +73,7 @@
 				<section>
 					  <h2>Evolution of behavior</h2>
             <br/>
-            <img src="../imgs/behavior_example_2.png" width="40%">
+            <img src="../static/img/behavior_example_2.png" width="40%">
             <br/>
 					  Different genes, similar behaviors
             <br/>
@@ -86,7 +90,7 @@
 				<section>
 					  <h2>Behavior Space</h2>
             <br/>
-            <img src="../imgs/behavior_space.png" width="40%">
+            <img src="../static/img/behavior_space.png" width="40%">
             <br/>
             <br/>
             <div class="textbox">
@@ -116,7 +120,7 @@
 				<section>
 					  <h2>Measuring behavior</h2>
             <br/>
-            <img src="../imgs/behavior_distance.png" width="20%">
+            <img src="../static/img/behavior_distance.png" width="20%">
             <br/>
             How do we define the distance between two behaviors?
             <br/>
@@ -131,7 +135,7 @@
 				<section>
 					  <h2>Population diversity</h2>
             <br/>
-            <img src="../imgs/rastrigin.gif" width="40%">
+            <img src="../static/img/rastrigin.gif" width="40%">
             <br/>
             <div class="textbox">
                 We need to encourage diversity in the <b>behavior space</b>, ie behavioral diversity.
@@ -141,14 +145,14 @@
 				<section>
 					  <h2>Behavior Characterization</h2>
             <br/>
-            <img src="../imgs/map_1.png" width="40%">
+            <img src="../static/img/map_1.png" width="40%">
             <br/>
         </section>
 
 				<section>
 					  <h2>Behavior Characterization</h2>
             <br/>
-            <img src="../imgs/map_2.png" width="40%">
+            <img src="../static/img/map_2.png" width="40%">
             <br/>
             $F(i) = \sqrt{(x_i-x_{final})^2+(y_i-y_{final})^2}$
         </section>
@@ -156,7 +160,7 @@
 				<section>
 					  <h2>Behavior Characterization</h2>
             <br/>
-            <img src="../imgs/map_3.png" width="40%">
+            <img src="../static/img/map_3.png" width="40%">
             <br/>
             <p class="fragment">
             $dist(i, j) = \sqrt{(x_i-x_j)^2+(y_i-y_j)^2}$
@@ -234,7 +238,7 @@
         <section>
             <h2>Quality diversity</h2>
             <br/>
-            <img src="../imgs/qd_framework_2.png" width="40%">
+            <img src="../static/img/qd_framework_2.png" width="40%">
             <br/>
             <br/>
             <div class="textbox">
@@ -263,7 +267,7 @@
         <section>
             <h2>Illuminating search spaces</h2>
             <br/>
-            <img src="../imgs/illumination.png" width="50%" height="auto">
+            <img src="../static/img/illumination.png" width="50%" height="auto">
             <br/>
             <br/>
             Illuminate the <b>fitness potential</b> of each area of the feature space (behavior space)
@@ -279,7 +283,7 @@
         <section>
             <h2>MAP-Elites</h2>
             <br/>
-            <img src="../imgs/map_elite_algo.png" width="80%" height="auto">
+            <img src="../static/img/map_elite_algo.png" width="80%" height="auto">
             <br/>
             <br/>
             <div class="textbox">
@@ -292,7 +296,7 @@
         <section>
             <h2>MAP-Elites</h2>
             <br/>
-            <img src="../imgs/map_elite_robot.png" width="40%" height="auto">
+            <img src="../static/img/map_elite_robot.png" width="40%" height="auto">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/IHQgnpSphEI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br/>
             <br/>
@@ -306,7 +310,7 @@
         <section>
             <h2>Archive differences</h2>
             <br/>
-            <img src="../imgs/qd_framework.png" width="60%">
+            <img src="../static/img/qd_framework.png" width="60%">
             <br/>
             <br/>
             <div class="textbox">
@@ -319,7 +323,7 @@
         <section>
             <h2>Speeding up evaluation</h2>
             <br/>
-            <img src="../imgs/sail.png" width="40%" height="auto">
+            <img src="../static/img/sail.png" width="40%" height="auto">
             <br/>
             Surrogated-Assisted Illumination (SAIL)
             <br/>
@@ -333,7 +337,7 @@
         <section>
             <h2>SAIL</h2>
             <br/>
-            <img src="../imgs/sail_2.png" width="50%" height="auto">
+            <img src="../static/img/sail_2.png" width="50%" height="auto">
             <br/>
             <br/>
             <div class="textbox">
@@ -346,7 +350,7 @@
         <section>
             <h2>Adaptive behavior</h2>
             <br/>
-            <img src="../imgs/qd_adaptation_2.png" width="50%" height="auto">
+            <img src="../static/img/qd_adaptation_2.png" width="50%" height="auto">
             <br/>
             <br/>
             <div class="textbox">
@@ -359,7 +363,7 @@
         <section>
             <h2>Adaptive behavior</h2>
             <br/>
-            <img src="../imgs/mboa.png" width="80%" height="auto">
+            <img src="../static/img/mboa.png" width="80%" height="auto">
             <br/>
             <br/>
             <div class="textbox">
@@ -380,28 +384,57 @@
           </div>
       </div>
 		</div>
+   <script src="./dist/reveal.js"></script>
 
-		<script src="../reveal/js/reveal.js"></script>
-		<script src="../reveal/js/jquery-3.5.0.min.js"></script>
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+        function extend() {
+            var target = {};
+            for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                    if (source.hasOwnProperty(key)) {
+                        target[key] = source[key];
+                    }
+                }
+            }
+            return target;
+        }
 
-		<script>
-     Reveal.initialize({
-         width: "90%",
-         height: "90%",
-         slideNumber: 'c',
-         transition: 'none',
-         progress: true,
-         hash: true,
-         center: false,
-         dependencies: [
-             { src: '../reveal/plugin/markdown/marked.js' },
-             { src: '../reveal/plugin/markdown/markdown.js' },
-					   { src: '../reveal/plugin/highlight/highlight.js' },
-             { src: '../reveal/plugin/notes/notes.js', async: true }
-         ]
-     });
-     var footer = $('#footer-container').html();
-     $('div.reveal').append(footer);
-		</script>
+        // default options to init reveal.js
+        var defaultOptions = {
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+            transition: 'default', // none/fade/slide/convex/concave/zoom
+            plugins: [
+                RevealMarkdown,
+                RevealHighlight,
+                RevealZoom,
+                RevealNotes,
+                RevealMath
+            ]
+        };
+
+        // options from URL query string
+        var queryOptions = Reveal().getQueryHash() || {};
+
+        var options = extend(defaultOptions, {"transition":"fade","transitionSpeed":"default","controls":true,"slideNumber":true,"width":"100%","height":"100%"}, queryOptions);
+    </script>
+
+
+    <script>
+        Reveal.initialize(options);
+        var footer = $('#footer-container').html();
+        $('div.reveal').append(footer);
+        var logo = $('#logo-container').html();
+        $('div.reveal').append(logo);
+    </script>
+
 	</body>
 </html>
