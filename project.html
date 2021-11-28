@@ -296,9 +296,41 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Project
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="project.html" class="md-nav__link md-nav__link--active">
         Project
       </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -324,6 +356,21 @@
   
     
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -359,6 +406,46 @@ environment before the 01/12. This project coincides with an open competition on
 <a href="https://www.aicrowd.com/challenges/flatland-3">AIcrowd</a> platform with material
 prizes. Extra credit will be given to students who make submissions to the
 online competition in addition to the class competition.</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">🔗</a></h2>
+<p>The official installation instructions are
+<a href="https://gitlab.aicrowd.com/flatland/flatland#-setup">here</a>. Below are tested
+instructions for Linux and the Windows Subsystem for Linux if the official
+instructions do not work.</p>
+<p>This method was tested on Python 3.7 (WSL) and 3.9 (Linux). You first need a
+Python environment which you can install Flatland into. If you already have an
+environment, you can <strong>skip this step</strong>. If you want to make a new environment,
+this is one way:</p>
+<div class="highlight"><pre><span></span><code>mkdir -p ~/.venvs
+python -m venv ~/.venvs/flatland
+<span class="nb">source</span> ~/.venvs/flatland/bin/activate
+pip install -U pip
+</code></pre></div>
+<p>If it is a new environment, or if your environment doesn't have packages like
+<code>numpy</code> and <code>pandas</code> yet, you may need to install Python package building
+dependencies:</p>
+<div class="highlight"><pre><span></span><code>pip install wheel cython
+</code></pre></div>
+<p>From a new environment, you should also first install the dependencies from
+<code>requirements_dev.txt</code>:</p>
+<div class="highlight"><pre><span></span><code>pip install -r requirements_dev.txt
+</code></pre></div>
+<p>Once you have activated a Python environment, you can install the flatland
+package:</p>
+<div class="highlight"><pre><span></span><code>git clone git@gitlab.aicrowd.com:flatland/flatland.git
+<span class="nb">cd</span> flatland
+pip install -e .
+</code></pre></div>
+<p>To verify that the installation worked, you can run the package tests:</p>
+<div class="highlight"><pre><span></span><code>pip install pytest
+py.test
+</code></pre></div>
+<p>On Linux, you can also see a graphical demonstration by doing</p>
+<div class="highlight"><pre><span></span><code>flatland-demo
+</code></pre></div>
+<p>On Windows Subsystem for Linux, support for graphical display is still underway:
+<a href="https://github.com/microsoft/WSL/issues/637">github</a>
+<a href="https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps">microsoft</a>. As
+long as you can run the <code>flatland</code> package, you are ready for the project.</p>
                 
               
               
