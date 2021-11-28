@@ -17,3 +17,14 @@ Schedule | | |
 16/11 | [Evolutionary Strategies](2_es.html) | Population-based methods, 1+1 ES, CMA-ES |
 23/11 | [Genetic Algorithms](3_ga.html) | Genetic Algorithm, Multi-Objective Optimization, NSGA-II |
 01/12 | [Project](project.html) | Project |
+
+## Resources
+
+The 2nd year elective class [EISC217: Evolutionary
+Computation](https://d9w.github.io/evolution/) goes into further detail on many
+of these same topics and introduces new topics such as genetic programming and
+quality diversity.
+
+The [Introduction to Evolutionary
+Computing](https://link.springer.com/book/10.1007/978-3-662-44874-8) book by A.
+E. Eiben is recommended as reading for this class.

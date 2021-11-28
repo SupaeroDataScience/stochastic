@@ -11,7 +11,3 @@
 ## NSGA-II
 
 [Notebook](https://github.com/SupaeroDataScience/stochastic/blob/master/notebooks/NSGA-II.ipynb)
-
-## Multi-objective and Quality Diversity
-
-[Slides](https://supaerodatascience.github.io/stochastic/slides/static/qd.html)
