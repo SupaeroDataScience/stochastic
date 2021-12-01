@@ -145,6 +145,14 @@ Your final results on the `large.pkl` environment will be evaluated using three 
 + convergence speed (how quickly the evolution improves)
 + robustness to different random environments (as in `test.py`)
 
+## Resources
+
+You can use any algorithm, including code from class, but the following libraries may be of help:
+
++ https://github.com/hardmaru/estool
++ https://pymoo.org/
++ https://github.com/CyberAgentAILab/cmaes
+
 ## Submission
 
 To submit your results, you should submit all necessary python files, model
