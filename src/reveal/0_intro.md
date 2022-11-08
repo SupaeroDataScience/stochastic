@@ -104,8 +104,8 @@ Pros
 + Course website at https://SupaeroDataScience.github.io/stochastic/
 + Notebooks available on course website or at https://github.com/SupaeroDataScience/stochastic/
 + Evaluation in two parts:
-  + mini-quiz on 16/11 and 23/11
-  + Project on 01/12
+  + mini-quiz at the beginning of class
+  + Project on final class
 
 <!--s-->
 

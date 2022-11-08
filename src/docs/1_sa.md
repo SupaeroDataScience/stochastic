@@ -7,9 +7,13 @@ search and simulated annealing.
 
 [notebook](https://github.com/SupaeroDataScience/stochastic/blob/master/notebooks/Random%20Search.ipynb)
 
+[Colab](https://colab.research.google.com/github/SupaeroDataScience/stochastic/blob/master/notebooks/Random%20Search.ipynb)
+
 ## Simulated annealing
 
 [notebook](https://github.com/SupaeroDataScience/stochastic/blob/master/notebooks/Simulated%20Annealing.ipynb)
+
+[Colab](https://colab.research.google.com/github/SupaeroDataScience/stochastic/blob/master/notebooks/Simulated%20Annealing.ipynb)
 
 ## Quiz on random search and simulated annealing
 
