@@ -1,0 +1,14 @@
+random search
+
+%matplotlib inline - maybe only one? this one works
+%matplotlib notebook
+
+Simulated Annealing
+
+the prob is highier in color
+the temp in Y
+the value in X
+
+GA
+
+the blue is more biased for well performning solutions
