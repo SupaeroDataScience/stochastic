@@ -30,81 +30,122 @@ Random Search, Simulated Annealing, Evolutionary Strategies, Genetic Algorithms
 
 Dennis WILSON
 
+Yuri LAVINAS
+
 </script></section><section  data-markdown><script type="text/template">
 
 ### Stochastic Optimization
 
-+ Search methods which use random variables to optimize on an objective function
-+ No requirements for the objective function: not differentiable, convex, concave, simple. Any function works.
-+ This is not problems which are stochastic (stochastic programming)
++ Search methods use random variables to optimize on an objective function (**or fitness function**)
+    + Given a problem and the expected output, how to find a good input (**or individual**)?    
++ No requirements for the fitness function: not differentiable, convex, concave, simple. Any function works!
 + Other names: metaheuristics, black-box optimization, stochastic search
-+ Examples: simulated annealing, particle swarm optimization, evolutionary strategies, genetic algorithms
++ Algorithms: simulated annealing, particle swarm optimization, evolutionary strategies, genetic algorithms, differntail evolution ...
 
 </script></section><section  data-markdown><script type="text/template">
-### Search: the Traveling Salesman example
+### How do they work?
 
-<img src="static/img/48StatesTSP.png" style="background:none; border:none; box-shadow:none;"/>
+Given a problem and the expected output, how to find a good input (**individual**)?  
 
-Given a list of cities and the distances between each pair of cities, what is
-the shortest possible route that visits each city once and returns to the
-origin city?
++ Evaluate several individuals, until we find at least one that works.
+    + The fitness function tell how good an individual is.
+    + We evaluate how good an individual is by it checking it in the problem in relation to the expected output.
++ Pick the best performing individual
+    + Change it a little bit to get new individuals (**offspring**) and repeat.
 
-Representation: list of cities in order
 
-Objective function: total distance traveled
+</script></section><section  data-markdown><script type="text/template">
+### Why do they work?
+    
++ They work by testing several solutions, until they find a solution that works. They are also called Search Based Optimization (SBO).
++ They don't require domain knowledge or specific characteristic of the problems.
++ These methods are based on random process.
+    + Randomness can also make the method less sensitive to modeling errors.
+    + Randomness may enable the method to escape a local optimum
+
+
+</script></section><section  data-markdown><script type="text/template">
+### Why are they great?
+<img src="static/img/St_5-xband-antenna.jpg" style="background:none; border:none; box-shadow:none; max-width: 20%; height: auto;"/>
+
++ "This evolved antenna represents the world's first artificially-evolved object to fly in space."
+    + https://en.wikipedia.org/wiki/Evolved_antenna
+
+
+
+</script></section><section  data-markdown><script type="text/template">
+### Why are they great?
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">EA for robot control.<a href="https://t.co/VL1bTyOef3">pic.twitter.com/VL1bTyOef3</a></p>&mdash; David Ha (@hardmaru) <a href="https://twitter.com/hardmaru/status/929849328310431744?ref_src=twsrc%5Etfw">November 12, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+    
+
+</script></section><section  data-markdown><script type="text/template">
+    ### Search: the Traveling Salesman example
+    
+    <img src="static/img/48StatesTSP.png" style="background:none; border:none; box-shadow:none; max-width: 50%; height: auto;"/>
+    
+    Problem: Given a list of cities and the distances between each pair of cities, what is
+    the shortest possible route that visits each city once and returns to the
+    origin city?
+    
+    Individual representation: list of cities in order
+
+    Fitness function: total distance traveled
 
 </script></section><section  data-markdown><script type="text/template">
 
-### Search: Continuous Optimization
+### Search problem: Continuous Optimization
 
-<img src="static/img/sgd.gif" style="background:none; border:none; box-shadow:none;"/>
+<img src="static/img/sgd.gif" style="background:none; border:none; box-shadow:none; max-width: 55%; height: auto;"/>
 
-Representation: coordinates in N dimensional space
+Individual representation: coordinates in N dimensional space
 
-Objective function: problem-specific
+Fitness function: problem-specific
 
 </script></section><section  data-markdown><script type="text/template">
 
 ### Application: wind farm layout optimization
 
-<img src="static/img/LayoutProblem.png" style="background:none; border:none; box-shadow:none;"/>
+<img src="static/img/LayoutProblem.png" style="background:none; border:none; box-shadow:none; max-width: 60%; height: auto;"/>
 
-Representation: x,y coordinates of wind turbines
 
-Objective function: Expected energy gain
+Individual representation: x,y coordinates of wind turbines
+
+Fitness function: Expected energy gain
 
 Stochastic search methods are state-of-the-art because resolution methods based
 on constraint satisfaction or planning are too costly given the physical
-simulation of wind turbine wakes.
+simulation.
 
 </script></section><section  data-markdown><script type="text/template">
 
-### Application: Software development
+### Application (problem): Software development
 
-<img src="static/img/genetic_improvement.png" style="background:none; border:none; box-shadow:none;"/>
+<img src="static/img/genetic_improvement.png" style="background:none; border:none; box-shadow:none; max-width: 60%; height: auto;"/>
 
-Representation: Computer program (grammar or abstract syntax tree)
+Individual representation: Computer program (grammar or abstract syntax tree)
 
-Objective function: Runtime, number of tests passed
+Fitness function: Runtime, number of tests passed
 
 
 </script></section><section  data-markdown><script type="text/template">
 
 ### Advantages
 
-Pros
-  + Flexibility in problem representation
-  + Flexibility in objective function
-  + Multitude of proven algorithms with (comparatively) few hyperparameters
+  + Creative
+  + Easy to implement and parallelize
+  + Flexibility in problem representation and in fitness function
+  + Many proven algorithms with (comparatively) few hyperparameters
   + Relatively easy to understand
+
 
 </script></section><section  data-markdown><script type="text/template">
 
 ### Disadvantages
 
   + Computational cost
-  + Search not fully informed by objective function
-  + Expert knowledge for representation or objective function design
+  + Search not fully informed by fitness function
+  + It is impossible to guarantee they find the optimal individual.
 
 </script></section><section  data-markdown><script type="text/template">
 
@@ -114,7 +155,6 @@ Pros
 + Notebooks available on course website or at https://github.com/SupaeroDataScience/stochastic/
 + Evaluation in two parts:
   + mini-quiz at the beginning of class
-  + Project on final class
 
 </script></section><section  data-markdown><script type="text/template">
 
@@ -126,10 +166,9 @@ Pros
 
 ### Exercise: recent applications
 
-1. [Heuristic Strategies for Solving Complex Interacting Stockpile Blending Problem with Chance Constraints](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/xie_stockpile.pdf)
+1. [Local Optima Networks for Seismic History Matching Problems](https://yurilavinas.github.io/papers/FLA_of_ASHM_Problems_using_LONs___EvoStar_2023.pdf)
 2. [Design of Specific Primer Sets for SARS-CoV-2 Variants Using Evolutionary Algorithms](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/rincon_cov2.pdf)
-3. [Continuously Running Genetic Algorithm for Real-Time Networking Device Optimization](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/mandelbaum_networking.pdf)
-4. [Evolutionary Minimization of Traffic Congestion](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/bother_traffic.pdf)
+3. [Kartezio: Evolutionary Design of Explainable Pipelines for Biomedical Image Analysis](https://arxiv.org/pdf/2302.14762.pdf)
 
 What is the application in the article? How is this application formulated into an evolutionary fitness?
 
