@@ -21,6 +21,8 @@ Random Search, Simulated Annealing, Evolutionary Strategies, Genetic Algorithms
 
 Dennis WILSON
 
+Yuri LAVINAS
+
 <!--s-->
 
 ### Stochastic Optimization
@@ -32,6 +34,43 @@ Dennis WILSON
 + Examples: simulated annealing, particle swarm optimization, evolutionary strategies, genetic algorithms
 
 <!--s-->
+
+### How do they work?
+
+Given a problem and the expected output, how to find a good input (**individual**)?
+
++ Evaluate several individuals, until we find at least one that works.
+    + The fitness function tell how good an individual is.
+    + We evaluate how good an individual is by it checking it in the problem in relation to the expected output.
++ Pick the best performing individual
+    + Change it a little to get new individuals (**offspring**) and repeat.
+
+<!--s-->
+
+### Why do they work?
+
++ They work by testing several solutions, until they find a solution that works. They are also called Search Based Optimization (SBO).
++ They don't require domain knowledge or specific characteristic of the problems.
++ These methods are based on random process.
+    + Randomness can also make the method less sensitive to modeling errors.
+    + Randomness may enable the method to escape a local optimum
+
+<!--s-->
+
+### Why are they great?
+<img src="static/img/St_5-xband-antenna.jpg" style="background:none; border:none; box-shadow:none; max-width: 20%; height: auto;"/>
+
++ "This evolved antenna represents the world's first artificially-evolved object to fly in space."
+    + https://en.wikipedia.org/wiki/Evolved_antenna
+
+<!--s-->
+
+### Why are they great?
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">EA for robot control.<a href="https://t.co/VL1bTyOef3">pic.twitter.com/VL1bTyOef3</a></p>&mdash; David Ha (@hardmaru) <a href="https://twitter.com/hardmaru/status/929849328310431744?ref_src=twsrc%5Etfw">November 12, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<!--s-->
+
 ### Search: the Traveling Salesman example
 
 <img src="static/img/48StatesTSP.png" style="background:none; border:none; box-shadow:none;"/>
@@ -83,10 +122,10 @@ Objective function: Runtime, number of tests passed
 
 ### Advantages
 
-Pros
-  + Flexibility in problem representation
-  + Flexibility in objective function
-  + Multitude of proven algorithms with (comparatively) few hyperparameters
+  + Creative
+  + Easy to implement and parallelize
+  + Flexibility in problem representation and in fitness function
+  + Many proven algorithms with (comparatively) few hyperparameters
   + Relatively easy to understand
 
 <!--s-->
@@ -94,8 +133,8 @@ Pros
 ### Disadvantages
 
   + Computational cost
-  + Search not fully informed by objective function
-  + Expert knowledge for representation or objective function design
+  + Search not fully informed by fitness function
+  + It is impossible to guarantee they find the optimal individual.
 
 <!--s-->
 
@@ -103,9 +142,7 @@ Pros
 
 + Course website at https://SupaeroDataScience.github.io/stochastic/
 + Notebooks available on course website or at https://github.com/SupaeroDataScience/stochastic/
-+ Evaluation in two parts:
-  + mini-quiz at the beginning of class
-  + Project on final class
++ Evaluation by quizzes at the end of each class
 
 <!--s-->
 
@@ -121,6 +158,7 @@ Pros
 2. [Design of Specific Primer Sets for SARS-CoV-2 Variants Using Evolutionary Algorithms](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/rincon_cov2.pdf)
 3. [Continuously Running Genetic Algorithm for Real-Time Networking Device Optimization](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/mandelbaum_networking.pdf)
 4. [Evolutionary Minimization of Traffic Congestion](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/bother_traffic.pdf)
+5. [Local Optima Networks for Assisted Seismic History Matching Problems](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/seismic_history.pdf)
 
 What is the application in the article? How is this application formulated into an evolutionary fitness?
 

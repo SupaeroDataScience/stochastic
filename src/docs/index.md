@@ -9,16 +9,23 @@ This class covers stochastic methods of optimization, primarily simulated
 annealing, evolutionary strategies, and genetic algorithms. The class is 10
 hours total and uses HTML presentations and Jupyter notebooks in Python for
 exercises. The evaluation for this class is based on quiz responses during the
-first three classes and on a final project.
+three classes.
 
 Schedule | | |
 | --- | --- | --- |
-08/11 | [Introduction](0_intro.html) and [simulated annealing](1_sa.html) | Continuous optimization, random search, simulated annealing |
-09/11 | [Evolutionary Strategies](2_es.html) | Population-based methods, 1+1 ES, CMA-ES |
-21/11 | [Genetic Algorithms](3_ga.html) | Genetic Algorithm, Multi-Objective Optimization, NSGA-II |
-29/11 | [Project](project.html) | Project |
+16/10 | [Introduction](0_intro.html) and [simulated annealing](1_sa.html) | Continuous optimization, random search, simulated annealing |
+17/10 | [Evolutionary Strategies](2_es.html) | Population-based methods, 1+1 ES, CMA-ES |
+07/11 | [Genetic Algorithms](3_ga.html) | Genetic Algorithm, Multi-Objective Optimization, NSGA-II |
 
 ## Resources
+
++ [Pymoo](https://pymoo.org/)
++ [pycma](https://github.com/CMA-ES/pycma)
++ [CMAES](https://github.com/CyberAgentAILab/cmaes)
++ [DAEP](https://github.com/DEAP/deap)
++ [gplearn](https://gplearn.readthedocs.io/en/stable/)
++ [evosax](https://github.com/RobertTLange/evosax)
++ [ECJ](https://cs.gmu.edu/~eclab/projects/ecj/)
 
 The 2nd year elective class [EISC217: Evolutionary
 Computation](https://d9w.github.io/evolution/) goes into further detail on many
