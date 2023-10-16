@@ -57,16 +57,20 @@ Given a problem and the expected output, how to find a good input (**individual*
 <!--s-->
 
 ### Why are they great?
+
 <img src="static/img/St_5-xband-antenna.jpg" style="background:none; border:none; box-shadow:none; max-width: 20%; height: auto;"/>
 
-+ "This evolved antenna represents the world's first artificially-evolved object to fly in space."
-    + https://en.wikipedia.org/wiki/Evolved_antenna
+ "This evolved antenna represents the world's first artificially-evolved object to fly in space."
+
+https://en.wikipedia.org/wiki/Evolved_antenna
 
 <!--s-->
 
 ### Why are they great?
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">EA for robot control.<a href="https://t.co/VL1bTyOef3">pic.twitter.com/VL1bTyOef3</a></p>&mdash; David Ha (@hardmaru) <a href="https://twitter.com/hardmaru/status/929849328310431744?ref_src=twsrc%5Etfw">November 12, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<img src="https://blog.otoro.net/assets/20171109/biped/biped_cma.gif" style="background:none; border:none; box-shadow:none; max-width: 80%; height: auto;"/>
+
+Robotic control with evolved logic
 
 <!--s-->
 
