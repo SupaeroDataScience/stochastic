@@ -1,7 +1,6 @@
 ---
 title: Multi-objective Optimization
 theme: evo
-highlightTheme: zenburn
 separator: <!--s-->
 verticalSeparator: <!--v-->
 revealOptions:

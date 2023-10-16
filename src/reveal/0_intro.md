@@ -1,7 +1,6 @@
 ---
 title: Introduction to Stochastic Optimization
 theme: evo
-highlightTheme: zenburn
 separator: <!--s-->
 verticalSeparator: <!--v-->
 revealOptions:
