@@ -7,7 +7,7 @@ n_runs = 5
 # Random Search
 fs = np.zeros((n_runs, max_e))
 for j in range(n_runs):
-    min_f = np.Inf
+    min_f = np.inf
     for i in range(max_e):
         x = np.random.rand()*4-2
         y = np.random.rand()*4-2

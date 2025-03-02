@@ -2,7 +2,7 @@ max_e = 1000
 n_runs = 5
 fs = np.zeros((n_runs, max_e))
 for j in range(n_runs):
-    min_f = np.Inf
+    min_f = np.inf
     for i in range(max_e):
         x = np.random.rand()*4-2
         y = np.random.rand()*4-2
@@ -15,7 +15,7 @@ fs_std = np.std(fs, 0)
 
 ro_fs = np.zeros((n_runs, max_e))
 for j in range(n_runs):
-    min_f = np.Inf
+    min_f = np.inf
     x = np.random.rand()*4-2
     y = np.random.rand()*4-2
     for i in range(max_e):

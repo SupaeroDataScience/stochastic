@@ -1,6 +1,6 @@
 es = []
 fs = []
-min_f = np.Inf
+min_f = np.inf
 for i in range(1000):
     x = np.random.rand()*4-2
     y = np.random.rand()*4-2

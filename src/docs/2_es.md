@@ -14,6 +14,3 @@ Covariance Matrix Adaptation Evolutionary Strategy.
 
 [Colab](https://colab.research.google.com/github/SupaeroDataScience/stochastic/blob/master/notebooks/Neuroevolution.ipynb)
 
-## Quiz on evolutionary strategies
-
-[LMS](https://lms.isae.fr/mod/quiz/view.php?id=111866)

@@ -20,8 +20,6 @@ Random Search, Simulated Annealing, Evolutionary Strategies, Genetic Algorithms
 
 Dennis WILSON
 
-Yuri LAVINAS
-
 <!--s-->
 
 ### Stochastic Optimization
@@ -34,25 +32,22 @@ Yuri LAVINAS
 
 <!--s-->
 
-### How do they work?
+### Evolutionary Algorithms
 
-Given a problem and the expected output, how to find a good input (**individual**)?
 
-+ Evaluate several individuals, until we find at least one that works.
-    + The fitness function tell how good an individual is.
-    + We evaluate how good an individual is by it checking it in the problem in relation to the expected output.
-+ Pick the best performing individual
-    + Change it a little to get new individuals (**offspring**) and repeat.
+<img src="static/img/EA_diagram.svg" style="background:none; border:none; box-shadow:none;" width="50%" height="auto"/>
+
+Population of solutions are evaluated, selected, then modified to create the next population.
 
 <!--s-->
 
 ### Why do they work?
 
-+ They work by testing several solutions, until they find a solution that works. They are also called Search Based Optimization (SBO).
++ They work by testing several solutions, until they find a solution that works.
 + They don't require domain knowledge or specific characteristic of the problems.
 + These methods are based on random process.
     + Randomness can also make the method less sensitive to modeling errors.
-    + Randomness may enable the method to escape a local optimum
+    + Randomness may enable the method to escape a local optimum.
 
 <!--s-->
 
@@ -137,7 +132,7 @@ Objective function: Runtime, number of tests passed
 
   + Computational cost
   + Search not fully informed by fitness function
-  + It is impossible to guarantee they find the optimal individual.
+  + Not guaranteed to find the optimal individual
 
 <!--s-->
 
@@ -145,13 +140,17 @@ Objective function: Runtime, number of tests passed
 
 + Course website at https://SupaeroDataScience.github.io/stochastic/
 + Notebooks available on course website or at https://github.com/SupaeroDataScience/stochastic/
-+ Evaluation by quizzes at the end of each class
++ Evaluation by quizzes at the beginning of second and third class
 
 <!--s-->
 
 ### Class schedule
 
-<img src="static/img/schedule.png">
+Schedule | | |
+| --- | --- | --- |
+03/03 | [Random search](1_sa.html) | Continuous optimization, random search, simulated annealing |
+05/03 | [Evolutionary Strategies](2_es.html) | Population-based methods, 1+1 ES, CMA-ES |
+05/03 | [Genetic Algorithms](3_ga.html) | Genetic Algorithm, Multi-Objective Optimization, NSGA-II |
 
 <!--s-->
 
@@ -161,7 +160,10 @@ Objective function: Runtime, number of tests passed
 2. [Design of Specific Primer Sets for SARS-CoV-2 Variants Using Evolutionary Algorithms](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/rincon_cov2.pdf)
 3. [Continuously Running Genetic Algorithm for Real-Time Networking Device Optimization](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/mandelbaum_networking.pdf)
 4. [Evolutionary Minimization of Traffic Congestion](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/bother_traffic.pdf)
-5. [Local Optima Networks for Assisted Seismic History Matching Problems](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/seismic_history.pdf)
+5. [From Pixels to Metal: AI-Empowered Numismatic Art](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/machado_pixels.pdf)
+6. [Evolutionary design of explainable algorithms for biomedical image segmentation](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/cortacero_image.pdf)
+7. [Freeform generative design of complex functional structures](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/pereira_freeform.pdf)
+8. [Learning Traffic Signal Control via Genetic Programming](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/zhang_traffic.pdf)
 
 What is the application in the article? How is this application formulated into an evolutionary fitness?
 

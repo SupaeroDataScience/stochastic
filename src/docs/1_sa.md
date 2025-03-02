@@ -14,7 +14,3 @@ search and simulated annealing.
 [notebook](https://github.com/SupaeroDataScience/stochastic/blob/master/notebooks/Simulated%20Annealing.ipynb)
 
 [Colab](https://colab.research.google.com/github/SupaeroDataScience/stochastic/blob/master/notebooks/Simulated%20Annealing.ipynb)
-
-## Quiz on random search and simulated annealing
-
-[LMS](https://lms.isae.fr/mod/quiz/view.php?id=111822)
