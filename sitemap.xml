@@ -2,27 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://supaerodatascience.github.io/stochastic/index.html</loc>
-         <lastmod>2023-11-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-03-02</lastmod>
     </url>
     <url>
          <loc>https://supaerodatascience.github.io/stochastic/0_intro.html</loc>
-         <lastmod>2023-11-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-03-02</lastmod>
     </url>
     <url>
          <loc>https://supaerodatascience.github.io/stochastic/1_sa.html</loc>
-         <lastmod>2023-11-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-03-02</lastmod>
     </url>
     <url>
          <loc>https://supaerodatascience.github.io/stochastic/2_es.html</loc>
-         <lastmod>2023-11-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-03-02</lastmod>
     </url>
     <url>
          <loc>https://supaerodatascience.github.io/stochastic/3_ga.html</loc>
-         <lastmod>2023-11-07</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-03-02</lastmod>
     </url>
 </urlset>
