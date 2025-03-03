@@ -160,7 +160,7 @@ Schedule | | |
 2. [Design of Specific Primer Sets for SARS-CoV-2 Variants Using Evolutionary Algorithms](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/rincon_cov2.pdf)
 3. [Continuously Running Genetic Algorithm for Real-Time Networking Device Optimization](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/mandelbaum_networking.pdf)
 4. [Evolutionary Minimization of Traffic Congestion](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/bother_traffic.pdf)
-5. [From Pixels to Metal: AI-Empowered Numismatic Art](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/machado_pixels.pdf)
+5. [From Pixels to Metal: AI-Empowered Numismatic Art](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/machado_art.pdf)
 6. [Evolutionary design of explainable algorithms for biomedical image segmentation](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/cortacero_image.pdf)
 7. [Freeform generative design of complex functional structures](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/pereira_freeform.pdf)
 8. [Learning Traffic Signal Control via Genetic Programming](https://raw.githubusercontent.com/SupaeroDataScience/stochastic/master/articles/zhang_traffic.pdf)
