@@ -28,7 +28,7 @@ for j in range(n_runs):
     for i in range(max_e):
       xp = x + np.random.randn(2)
       T = (max_e - i) / max_e
-      fxp = himmelblau(xp[0], x[1])
+      fxp = himmelblau(xp[0], xp[1])
       if (fxp < fx) or (np.exp(-(fxp-fx)/T) > np.random.rand()):
         x = np.copy(xp)
         if fxp < fbest:
